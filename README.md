@@ -3,7 +3,6 @@ An exploratory retail sales analysis project using PostgreSQL and Power BI to ex
 
 **Project Overview**
 This project analyzes historical online retail transaction data to understand sales patterns across time, products, and countries.
-
 The analysis uses PostgreSQL for data quality checks, transaction filtering, and SQL-based analysis. Power BI is used to present key metrics and findings through an interactive dashboard.
 
 **Business Questions**
