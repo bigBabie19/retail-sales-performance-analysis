@@ -26,7 +26,7 @@ This project aims to answer the following questions:
 
 The analysis table excludes non-positive quantities, non-positive unit prices, missing or blank product descriptions, cancellation invoices, and one investigated high-quantity transaction.
 
-## Tool Used
+## Tools Used
 
 - PostgresSQL: Data quality checks, transaction filtering, aggregation, and analysis.
 - pgAdmin: SQL query execution and database inspection.
