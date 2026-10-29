@@ -32,7 +32,7 @@ The analysis table excludes non-positive quantities, non-positive unit prices, m
 - pgAdmin: SQL query execution and database inspection.
 - Power BI Desktop: KPI cards, monthly sales trend, product ranking, and country-level visualizations.
 
-#**Analysis Process**
+## Analysis Process
 1. Reviewed data quality, including missing descriptions, non-positive quantities, non-positive prices, and cancellation invoices.
 2. Prepared a filtered analysis table for sales analysis.
 3. Calculated sales revenue as quantity multiplied by unit price.
@@ -40,7 +40,7 @@ The analysis table excludes non-positive quantities, non-positive unit prices, m
 5. Validated key dashboard metrics against PostgreSQL query results.
 6. Investigated an unusually large product transaction and assessed its influence on product-level results.
 
-#**Key Findings**
+## Key Findings
 - Total sales revenue: £10,498,214.94.
 - Total invoices: 19,959 distinct invoices.
 - Total units sold: 5,507,377.
@@ -66,17 +66,17 @@ The dashboard includes:
 - Sales by Country
 - Sales Contribution by Country
 
-#**Data Considerations and Limitations**
+## Data Considerations and Limitations
 - Sales revenue is calculated as quantity multiplied by unit price. It is not profit because cost data is unavailable.
 - December 2011 contains transactions only through December 9, so it represents a partial month.
 - One transaction involving 80,995 units of stock code 23843 was excluded from the analysis table after investigation. It remains in the cleaned table.
 - Another unusually large transaction involving stock code 23166 was retained. Unusual values are not automatically errors and can materially affect product-level results.
 - The analysis is descriptive and does not establish the causes of sales changes.
 
-#**Project Files**
+## Project Files
 - retail_sales_analysis.sql: SQL queries for data quality checks, monthly sales analysis, product analysis, country analysis, and validation.
 - retail_sales_performance1.pdf: PDF export of the Power BI dashboard.
 - retail sales performance.png: Dashboard preview image.
 
-#**Author**
+## Author
 Created as a data analytics portfolio project using PostgreSQL and Power BI.
