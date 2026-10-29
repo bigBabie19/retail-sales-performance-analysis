@@ -51,7 +51,7 @@ The analysis table excludes non-positive quantities, non-positive unit prices, m
 
 These findings describe the analyzed dataset and should not be interpreted as evidence of profitability or causal business effects.
 
-#**Dashboard Preview**
+## Dashboard Preview
 
 ![Retail Sales Performance Dashboard](retail%20sales%20performance.png)
 
