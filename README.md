@@ -1,11 +1,14 @@
-#**Retail Sales Performance Analysis**
+# Retail Sales Performance Analysis
+
 An exploratory retail sales analysis project using PostgreSQL and Power BI to examine sales performance, monthly trends, top-selling products, and country-level sales distribution.
 
-#**Project Overview**
+## Project Overview
+
 This project analyzes historical online retail transaction data to understand sales patterns across time, products, and countries.
 The analysis uses PostgreSQL for data quality checks, transaction filtering, and SQL-based analysis. Power BI is used to present key metrics and findings through an interactive dashboard.
 
-#**Business Questions**
+## Business Questions
+
 This project aims to answer the following questions:
 - How does sales revenue change over time?
 - Which products generate the highest sales revenue?
@@ -13,16 +16,18 @@ This project aims to answer the following questions:
 - How concentrated are sales across countries?
 - Which unusual transactions may materially influence product-level results?
 
-#**Dataset**
-- Source:UCI Machine Learning Repository: Online Retail
-- Period: December 1, 2010 to December 9, 2011
-- Raw dataset: 541,909 transaction rows
-- Analysis table: 530,099 rows
-- Geographic coverage: 38 countries
+## Dataset
+
+- **Source:** UCI Machine Learning Repository: Online Retail
+- **Period:** December 1, 2010 to December 9, 2011
+- **Raw dataset:** 541,909 transaction rows
+- **Analysis table:** 530,099 rows
+- **Geographic coverage:** 38 countries
 
 The analysis table excludes non-positive quantities, non-positive unit prices, missing or blank product descriptions, cancellation invoices, and one investigated high-quantity transaction.
 
-#**Tool Used**
+## Tool Used
+
 - PostgresSQL: Data quality checks, transaction filtering, aggregation, and analysis.
 - pgAdmin: SQL query execution and database inspection.
 - Power BI Desktop: KPI cards, monthly sales trend, product ranking, and country-level visualizations.
